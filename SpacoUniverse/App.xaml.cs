@@ -63,7 +63,7 @@ namespace SpacoUniverse {
 					// ナビゲーション スタックが復元されない場合は、最初のページに移動します。
 					// このとき、必要な情報をナビゲーション パラメーターとして渡して、新しいページを
 					//構成します
-					rootFrame.Navigate( typeof( MainPage ), e.Arguments );
+					rootFrame.Navigate( typeof( SpacoRSSListView ), e.Arguments );
 				}
 				// 現在のウィンドウがアクティブであることを確認します
 				Window.Current.Activate();
